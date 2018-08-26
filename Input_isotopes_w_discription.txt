@@ -1,0 +1,24 @@
+path, C:\Erin Stats\Dropbox\SourceIDErin\SourceID_MCMC_v4
+forward, 0
+n_sources,5
+n_elems, 37
+ga_pop, 50
+n_isotopes, 2
+maj_isotopes, 35, 36
+n_chains, 8
+n_sample, 10
+n_mcmcpop, 5000000, 1
+profile, Laurelhill_35and_CN.txt
+isotopes, isotopes.txt
+purturb, 0.05
+mutation, 0.008
+pcross, 1
+purt_red_rate, 0.9
+n_generations,100
+elements, 2,4,5
+percentiles, 0.025, 0.5, 0.975
+ga_output,GA_out.txt
+percent_output, Percent_out.txt
+c_percent_output, C_Percent_out.txt
+iso_percent_output, iso_percent_out.txt
+burn_in, 5000
